@@ -102,6 +102,7 @@ export default function LotteryEntrance() {
                     <div> Entrance fee {ethers.utils.formatUnits(entranceFee)} ETH</div>
                     <div>Number of players: {NumberOfPlayers}</div>
                     Recent winner: {RecentWinner}
+                    <div>hello</div>
                 </div>
             ) : (
                 <div>address not found</div>
